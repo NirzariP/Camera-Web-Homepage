@@ -1,0 +1,142 @@
+*{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* Image */
+.image{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.image1{
+    width: 800px;
+    height: 500px;
+}
+
+/* Heading */
+.heading{
+    position: absolute;
+    left: 600px;
+    top: 240px;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 72px;
+    letter-spacing: 40px;
+    line-height: 130px;
+    color: white;
+    background: transparent;
+}
+.line1,
+.line2, 
+.line1 span{
+    background: transparent;
+}
+.line1 span{
+    color: #767676;
+}
+
+/* Descrption Box */
+.description{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 410px;
+    background-color: white;
+    opacity: 15%;
+}
+.descript{
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    left: 1175px;
+    height: 180px;
+    line-height: 25px;
+    background: transparent;
+}
+.line3,.line4,.line5,.line6,.line7,
+.desc1,.desc2,.desc3{
+    font-size: 16px;
+    
+    background: transparent;
+}
+.line3,.line4,.line5,.line6,.line7{
+    color: white;
+    opacity: 65%;
+}
+.desc1,.desc2,.desc3{
+    color: white;
+    font-weight: bold;
+}
+
+/* Button */
+.container{
+    position: relative;
+    top: 630px;
+    left: 930px;
+    width: 124px;
+    background-color: transparent;
+}
+.btn{
+    border: none;
+    padding: 0.5rem 0.5rem;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -10px;
+    left: -10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transition: all 0.2s;
+}
+.btn:hover::before,
+.btn:hover::after{
+    height: 100%;
+    width: 100%;
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: -10px;
+    bottom: -10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transition: all 0.2s;
+}
+
+/* Design */
+.rec1,
+.rec2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: white;
+}
+.rec1{
+    left: 20px;
+}
+.rec2{
+    left: 36px;
+}
+.rec3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 23px;
+    height: 1px;
+    background-color: white;
+}
