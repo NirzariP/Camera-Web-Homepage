@@ -4,9 +4,11 @@ A visually appealing camera-themed homepage built using **HTML** and **CSS**.
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![UI Screenshot](UI/image1.png)
+
+## Figma Design
 ![Figma Screenshot](UI/figmadesign.png)
 
 ---
@@ -17,14 +19,14 @@ A visually appealing camera-themed homepage built using **HTML** and **CSS**.
 - Responsive layout for desktop and mobile
 - CSS-based layout, styling, and hover effects
 
----
+
 
 ## Tech Stack
 
 - HTML5
 - CSS3
 
-## 🖋️ Fonts Used
+## Fonts Used
 
 - Anek Bangla
 - sans-serif (fallback)
