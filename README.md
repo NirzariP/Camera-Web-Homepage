@@ -12,7 +12,6 @@ A visually appealing camera-themed homepage built using **HTML** and **CSS**.
 ## Features
 
 - Clean UI inspired by camera brands/websites
-- Responsive layout for desktop and mobile
 - CSS-based layout, styling, and hover effects
 
 ## Tech Stack
